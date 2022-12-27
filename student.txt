@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "Are you a student: " isStudent
+if [[ ${isStudent} == "yes" ]]; then 
+    echo "Welcome to bash scripting"
+elif [[ ${isStudent} == "no" ]]; then 
+    echo "Bye"
+else echo "See you later"
+fi
