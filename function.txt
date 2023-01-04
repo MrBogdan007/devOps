@@ -1,0 +1,15 @@
+#!/bin/bash
+hello=hello
+world=Dima
+hello_world () {
+   echo "${hello}, ${world}"
+}
+hello_world
+
+my_function () {
+   echo "some result"
+   return 55
+}
+
+my_function
+echo $?
