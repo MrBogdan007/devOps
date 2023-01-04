@@ -1,0 +1,14 @@
+#!/bin/bash
+
+limit=5
+count_function () {
+local=0
+local=$local+5
+if [[ $local -eq $limit ]]; then
+echo "success"
+else
+echo "error"
+fi
+}
+count_function
+
